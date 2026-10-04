@@ -1,0 +1,170 @@
+<mxfile host="app.diagrams.net">
+  <diagram id="tHx6Tu_Qi8aGjnqB1RjY" name="Страница-2">
+    <mxGraphModel dx="1677" dy="1048" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="5OcFB1YJsvB-ZJhZITWy-1" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;rotation=0;" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 17px;&quot;&gt;начало&lt;/font&gt;" vertex="1">
+          <mxGeometry height="100" width="300" x="270" y="-40" as="geometry" />
+        </mxCell>
+        <mxCell id="5OcFB1YJsvB-ZJhZITWy-2" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;rotation=0;" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 17px;&quot;&gt;ввод текста&lt;/font&gt;" vertex="1">
+          <mxGeometry height="200" width="300" x="270" y="90" as="geometry" />
+        </mxCell>
+        <UserObject label="&lt;div align=&quot;justify&quot;&gt;&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 17px;&quot;&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(73, 75, 76));&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(73, 75, 76));&quot;&gt;&lt;/span&gt;&lt;/font&gt;&lt;div style=&quot;font-weight: normal; line-height: 19px; white-space: pre;&quot;&gt;&lt;div&gt;&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 17px;&quot;&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(73, 75, 76));&quot;&gt;text = text.lower() - делаем все буквы&lt;br&gt;строчными&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 17px;&quot;&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(73, 75, 76));&quot;&gt;text = text.replace(&#39;,&#39;, &#39;&#39;).&lt;/span&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(73, 75, 76));&quot;&gt;replace(&#39;.&#39;, &#39;&#39;)&lt;/span&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(73, 75, 76));&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 17px;&quot;&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(73, 75, 76));&quot;&gt;.replace(&#39;!&#39;, &#39;&#39;) - избавляемся от знаков&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 17px;&quot;&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(73, 75, 76));&quot;&gt;words = text.split() - разбиваем текст&lt;br&gt;по пробелам&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 17px;&quot;&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(73, 75, 76));&quot;&gt;&lt;/span&gt;word_counts - создание пустого словаря&lt;/font&gt;&lt;/div&gt;&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 17px;&quot;&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(73, 75, 76));&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(73, 75, 76));&quot;&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" id="5OcFB1YJsvB-ZJhZITWy-3">
+          <mxCell parent="1" style="rounded=0;whiteSpace=wrap;html=1;rotation=0;" vertex="1">
+            <mxGeometry height="200" width="300" x="270" y="330" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="5OcFB1YJsvB-ZJhZITWy-4" edge="1" parent="1" source="5OcFB1YJsvB-ZJhZITWy-3" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="5OcFB1YJsvB-ZJhZITWy-2" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="480" y="350" as="sourcePoint" />
+            <mxPoint x="530" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5OcFB1YJsvB-ZJhZITWy-5" edge="1" parent="1" source="5OcFB1YJsvB-ZJhZITWy-2" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" target="5OcFB1YJsvB-ZJhZITWy-1" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="750" y="70" as="sourcePoint" />
+            <mxPoint x="580" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5OcFB1YJsvB-ZJhZITWy-7" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;rotation=0;" value="&lt;font style=&quot;font-size: 17px;&quot; face=&quot;Times New Roman&quot;&gt;элемент списка word в словаре word_counts?&lt;/font&gt;" vertex="1">
+          <mxGeometry height="200" width="300" x="270" y="820" as="geometry" />
+        </mxCell>
+        <mxCell id="5OcFB1YJsvB-ZJhZITWy-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;rotation=0;" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;word_counts[word] += 1&lt;/font&gt;" vertex="1">
+          <mxGeometry height="200" width="300" x="560" y="1000" as="geometry" />
+        </mxCell>
+        <mxCell id="5OcFB1YJsvB-ZJhZITWy-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;rotation=0;" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;word_counts[word] = 1&lt;/font&gt;" vertex="1">
+          <mxGeometry height="200" width="300" x="20" y="1000" as="geometry" />
+        </mxCell>
+        <mxCell id="5OcFB1YJsvB-ZJhZITWy-10" edge="1" parent="1" source="5OcFB1YJsvB-ZJhZITWy-7" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.53;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="5OcFB1YJsvB-ZJhZITWy-8" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="720" y="920" />
+            </Array>
+            <mxPoint x="670" y="920" as="sourcePoint" />
+            <mxPoint x="720" y="870" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5OcFB1YJsvB-ZJhZITWy-11" edge="1" parent="1" source="5OcFB1YJsvB-ZJhZITWy-9" style="endArrow=none;html=1;rounded=0;exitX=0.47;exitY=0.004;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="5OcFB1YJsvB-ZJhZITWy-7" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="161" y="920" />
+            </Array>
+            <mxPoint x="160" y="990" as="sourcePoint" />
+            <mxPoint x="200" y="890" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5OcFB1YJsvB-ZJhZITWy-12" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;True&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="620" y="890" as="geometry" />
+        </mxCell>
+        <mxCell id="5OcFB1YJsvB-ZJhZITWy-13" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;False&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="180" y="890" as="geometry" />
+        </mxCell>
+        <mxCell id="5OcFB1YJsvB-ZJhZITWy-14" edge="1" parent="1" source="5OcFB1YJsvB-ZJhZITWy-7" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="450" y="860" as="sourcePoint" />
+            <mxPoint x="420" y="775" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5OcFB1YJsvB-ZJhZITWy-15" edge="1" parent="1" source="5OcFB1YJsvB-ZJhZITWy-23" style="endArrow=none;html=1;rounded=0;exitX=0.504;exitY=-0.02;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitPerimeter=0;" target="5OcFB1YJsvB-ZJhZITWy-3" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="420" y="580" as="sourcePoint" />
+            <mxPoint x="580" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5OcFB1YJsvB-ZJhZITWy-16" edge="1" parent="1" source="5OcFB1YJsvB-ZJhZITWy-8" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="5OcFB1YJsvB-ZJhZITWy-9" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="710" y="1280" />
+              <mxPoint x="170" y="1280" />
+            </Array>
+            <mxPoint x="410" y="1150" as="sourcePoint" />
+            <mxPoint x="150" y="1230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5OcFB1YJsvB-ZJhZITWy-22" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="5OcFB1YJsvB-ZJhZITWy-23" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="440" y="1320" />
+              <mxPoint x="-40" y="1320" />
+              <mxPoint x="-40" y="690" />
+            </Array>
+            <mxPoint x="440" y="1280" as="sourcePoint" />
+            <mxPoint x="230" y="660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5OcFB1YJsvB-ZJhZITWy-23" parent="1" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;rotation=0;" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;проход по списку words&lt;/font&gt;" vertex="1">
+          <mxGeometry height="200" width="300" x="270" y="590" as="geometry" />
+        </mxCell>
+        <mxCell id="5OcFB1YJsvB-ZJhZITWy-24" edge="1" parent="1" source="5OcFB1YJsvB-ZJhZITWy-23" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="5OcFB1YJsvB-ZJhZITWy-25" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="960" y="690" />
+              <mxPoint x="960" y="1360" />
+              <mxPoint x="520" y="1360" />
+            </Array>
+            <mxPoint x="880" y="760" as="sourcePoint" />
+            <mxPoint x="520" y="1480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="&lt;div&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;sortt = sorted(word_counts.items(), key = lambda x: x[1], reverse = True) -&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;сортировка кортежей&amp;nbsp;&lt;/font&gt;&lt;/div&gt;" id="5OcFB1YJsvB-ZJhZITWy-25">
+          <mxCell parent="1" style="rounded=0;whiteSpace=wrap;html=1;rotation=0;" vertex="1">
+            <mxGeometry height="200" width="300" x="370" y="1390" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="5OcFB1YJsvB-ZJhZITWy-26" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;rotation=0;" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;вывод шапки &quot;топ-5 самых частых слов&quot;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="200" width="300" x="370" y="1620" as="geometry" />
+        </mxCell>
+        <mxCell id="5OcFB1YJsvB-ZJhZITWy-27" edge="1" parent="1" source="5OcFB1YJsvB-ZJhZITWy-26" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" target="5OcFB1YJsvB-ZJhZITWy-25" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="630" y="1710" as="sourcePoint" />
+            <mxPoint x="680" y="1660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5OcFB1YJsvB-ZJhZITWy-28" parent="1" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;rotation=0;" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;перебор пар(word - слово, count - количество этих слов) от 0го до 6го эл-та невкл. в списке sortt&amp;nbsp;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="200" width="300" x="370" y="1860" as="geometry" />
+        </mxCell>
+        <mxCell id="-oC93-F3zdTXsScePbYZ-1" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;rotation=0;" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;вывод слова и количества повторений&lt;/font&gt;" vertex="1">
+          <mxGeometry height="200" width="300" x="370" y="2090" as="geometry" />
+        </mxCell>
+        <mxCell id="-oC93-F3zdTXsScePbYZ-2" edge="1" parent="1" source="-oC93-F3zdTXsScePbYZ-1" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="5OcFB1YJsvB-ZJhZITWy-28" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="450" y="2070" as="sourcePoint" />
+            <mxPoint x="500" y="2020" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-oC93-F3zdTXsScePbYZ-3" edge="1" parent="1" source="5OcFB1YJsvB-ZJhZITWy-28" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" target="5OcFB1YJsvB-ZJhZITWy-26" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="300" y="1880" as="sourcePoint" />
+            <mxPoint x="350" y="1830" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-oC93-F3zdTXsScePbYZ-4" edge="1" parent="1" source="-oC93-F3zdTXsScePbYZ-1" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="5OcFB1YJsvB-ZJhZITWy-28" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="520" y="2320" />
+              <mxPoint x="280" y="2320" />
+              <mxPoint x="280" y="1960" />
+            </Array>
+            <mxPoint x="340" y="2470" as="sourcePoint" />
+            <mxPoint x="160" y="2290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-oC93-F3zdTXsScePbYZ-5" edge="1" parent="1" source="5OcFB1YJsvB-ZJhZITWy-28" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="720" y="1960" />
+              <mxPoint x="720" y="2400" />
+              <mxPoint x="560" y="2400" />
+            </Array>
+            <mxPoint x="810" y="2050" as="sourcePoint" />
+            <mxPoint x="560" y="2440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-oC93-F3zdTXsScePbYZ-6" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;rotation=0;" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;конец&lt;/font&gt;" vertex="1">
+          <mxGeometry height="100" width="300" x="410" y="2430" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
